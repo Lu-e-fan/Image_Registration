@@ -2,7 +2,7 @@
 
 In this project the goal is to implement an end-to-end image registration system. The system
 will be capable of aligning image pairs to a common coordinate system. The project is
-divided into different steps (roughly one for each module of the system). This is project is in collabration with Samuel Cheng.
+divided into different steps (roughly one for each module of the system). 
 
 Functions used in script:<br/>
         --featureMatching(image1, image2)<br/>
