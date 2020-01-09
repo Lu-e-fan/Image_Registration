@@ -11,5 +11,5 @@ Functions used in script:<br/>
         --cv.findHomography<br/>
         --registerImage()<br/>
   
-Algorithm Brief Description: The input of our program takes in two images and gets fed into SIFT for feature extraction and correspondence. After sorting out the good corresponding points, those points are sent into DLT to compute the Homography matrix. RANSAC is also applied as an alternative to "clean up" the feature points and help enhance DLT performance. Homography matrices are then applied onto one of the input images to compare with the other for evaluation. Images are rescaled to be stitched together for visualization.  
+**Algorithm Brief Description:** The input of our program takes in two images and gets fed into SIFT for feature extraction and correspondence. After sorting out the good corresponding points, those points are sent into DLT to compute the Homography matrix. RANSAC is also applied as an alternative to "clean up" the feature points and help enhance DLT performance. Homography matrices are then applied onto one of the input images to compare with the other for evaluation. Images are rescaled to be stitched together for visualization.  
  
